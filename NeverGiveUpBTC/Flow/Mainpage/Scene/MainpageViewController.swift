@@ -106,7 +106,8 @@ class MainpageViewController: UIViewController
         setupView()
         fetchBTCData()
         updateService()
-        filter2Array()
+//        let result = genPrimeNumber(input: 100)
+        let result = filter2Array(array1: [1,2,3,4,5,6,7,8,9,10], array2: [1,2,3,4,5])
     }
     
     func fetchBTCData() {
@@ -156,7 +157,7 @@ class MainpageViewController: UIViewController
     
     // Bonus Test
     // Bonus 1
-    func genFibonacci() {
+    func genFibonacci(input: Int) -> [Int] {
         var fiboArray: [Int] = [0]
         let numStart = 1
         var sum = 0
@@ -170,25 +171,35 @@ class MainpageViewController: UIViewController
             }
         }
         print(fiboArray)
+        return fiboArray
     }
     
     // Bonus 2
     
-    func genEvenNumber() {
+    func genPrimeNumber(input: Int) -> [Int] { // 100
         var evenArray: [Int] = []
-        for num in 0...100 {
-            if num % 2 != 0 {
-                evenArray.append(num)
+        for num1 in 2...input {
+            var isPrime: Bool = true
+            for num2 in 2...num1 {
+                if num1 != num2 {
+                    if num1%num2 == 0 {
+                        isPrime = false
+                    }
+                }
+            }
+            if isPrime {
+                evenArray.append(num1)
             }
         }
         print(evenArray)
+        return evenArray
     }
     
     // Bonus 3
     
-    func filter2Array() {
+    func filter2Array(array1: [Int], array2: [Int]) -> [Int] {
         let array1 = [1,2,3,4,5,6,7,8,9,10]
-        let array2 = [1,2,3,4,5,6,7,8,9,10]
+        let array2 = [1,2,3,4,5]
         var filterArray: [Int] = []
         for num in array1 {
             for num2 in array2 {
@@ -198,7 +209,7 @@ class MainpageViewController: UIViewController
             }
         }
         print(filterArray)
-        
+        return filterArray
     }
     
 }

@@ -26,8 +26,19 @@
 		DACE11AA2A3A3FA800738B16 /* BTCCardCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DACE11A92A3A3FA800738B16 /* BTCCardCollectionViewCell.xib */; };
 		DADE93332A3B5EA4001823E5 /* HistoryBTCViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DADE93322A3B5EA4001823E5 /* HistoryBTCViewCell.xib */; };
 		DADE93352A3B5EB5001823E5 /* HistoryBTCViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADE93342A3B5EB5001823E5 /* HistoryBTCViewCell.swift */; };
+		DAEB44CB2A3C5F3C0036FDA4 /* NeverGiveUpBTCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEB44CA2A3C5F3C0036FDA4 /* NeverGiveUpBTCTests.swift */; };
 		FEAF0D0C48A883FC473D7CA5 /* Pods_NeverGiveUpBTC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4179CC788045AB8C1E78C606 /* Pods_NeverGiveUpBTC.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAEB44CC2A3C5F3C0036FDA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA31BC652A39E88400F1C6E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA31BC6C2A39E88400F1C6E0;
+			remoteInfo = NeverGiveUpBTC;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		4179CC788045AB8C1E78C606 /* Pods_NeverGiveUpBTC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NeverGiveUpBTC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +64,8 @@
 		DACE11A92A3A3FA800738B16 /* BTCCardCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BTCCardCollectionViewCell.xib; sourceTree = "<group>"; };
 		DADE93322A3B5EA4001823E5 /* HistoryBTCViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HistoryBTCViewCell.xib; sourceTree = "<group>"; };
 		DADE93342A3B5EB5001823E5 /* HistoryBTCViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryBTCViewCell.swift; sourceTree = "<group>"; };
+		DAEB44C82A3C5F3C0036FDA4 /* NeverGiveUpBTCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeverGiveUpBTCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAEB44CA2A3C5F3C0036FDA4 /* NeverGiveUpBTCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeverGiveUpBTCTests.swift; sourceTree = "<group>"; };
 		EE8C7175411D14E4A9B8EFFF /* Pods-NeverGiveUpBTC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeverGiveUpBTC.debug.xcconfig"; path = "Target Support Files/Pods-NeverGiveUpBTC/Pods-NeverGiveUpBTC.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,6 +75,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				FEAF0D0C48A883FC473D7CA5 /* Pods_NeverGiveUpBTC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAEB44C52A3C5F3C0036FDA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				DA31BC6F2A39E88400F1C6E0 /* NeverGiveUpBTC */,
+				DAEB44C92A3C5F3C0036FDA4 /* NeverGiveUpBTCTests */,
 				DA31BC6E2A39E88400F1C6E0 /* Products */,
 				6B5713CAB5368F0AB8565272 /* Pods */,
 				16D286A08D515028E44715F0 /* Frameworks */,
@@ -99,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				DA31BC6D2A39E88400F1C6E0 /* NeverGiveUpBTC.app */,
+				DAEB44C82A3C5F3C0036FDA4 /* NeverGiveUpBTCTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -218,6 +240,14 @@
 			path = HistoryBTCViewCell;
 			sourceTree = "<group>";
 		};
+		DAEB44C92A3C5F3C0036FDA4 /* NeverGiveUpBTCTests */ = {
+			isa = PBXGroup;
+			children = (
+				DAEB44CA2A3C5F3C0036FDA4 /* NeverGiveUpBTCTests.swift */,
+			);
+			path = NeverGiveUpBTCTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -240,6 +270,24 @@
 			productReference = DA31BC6D2A39E88400F1C6E0 /* NeverGiveUpBTC.app */;
 			productType = "com.apple.product-type.application";
 		};
+		DAEB44C72A3C5F3C0036FDA4 /* NeverGiveUpBTCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAEB44D02A3C5F3D0036FDA4 /* Build configuration list for PBXNativeTarget "NeverGiveUpBTCTests" */;
+			buildPhases = (
+				DAEB44C42A3C5F3C0036FDA4 /* Sources */,
+				DAEB44C52A3C5F3C0036FDA4 /* Frameworks */,
+				DAEB44C62A3C5F3C0036FDA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAEB44CD2A3C5F3C0036FDA4 /* PBXTargetDependency */,
+			);
+			name = NeverGiveUpBTCTests;
+			productName = NeverGiveUpBTCTests;
+			productReference = DAEB44C82A3C5F3C0036FDA4 /* NeverGiveUpBTCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -252,6 +300,10 @@
 				TargetAttributes = {
 					DA31BC6C2A39E88400F1C6E0 = {
 						CreatedOnToolsVersion = 14.2;
+					};
+					DAEB44C72A3C5F3C0036FDA4 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = DA31BC6C2A39E88400F1C6E0;
 					};
 				};
 			};
@@ -269,6 +321,7 @@
 			projectRoot = "";
 			targets = (
 				DA31BC6C2A39E88400F1C6E0 /* NeverGiveUpBTC */,
+				DAEB44C72A3C5F3C0036FDA4 /* NeverGiveUpBTCTests */,
 			);
 		};
 /* End PBXProject section */
@@ -284,6 +337,13 @@
 				DA31BC782A39E88400F1C6E0 /* Main.storyboard in Resources */,
 				DA31BC982A39EC0F00F1C6E0 /* Mainpage.xib in Resources */,
 				DADE93332A3B5EA4001823E5 /* HistoryBTCViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAEB44C62A3C5F3C0036FDA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,7 +412,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DAEB44C42A3C5F3C0036FDA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAEB44CB2A3C5F3C0036FDA4 /* NeverGiveUpBTCTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAEB44CD2A3C5F3C0036FDA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA31BC6C2A39E88400F1C6E0 /* NeverGiveUpBTC */;
+			targetProxy = DAEB44CC2A3C5F3C0036FDA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		DA31BC762A39E88400F1C6E0 /* Main.storyboard */ = {
@@ -546,6 +622,42 @@
 			};
 			name = Release;
 		};
+		DAEB44CE2A3C5F3D0036FDA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MGN9TDN5PJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Paul.NeverGiveUpBTCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NeverGiveUpBTC.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NeverGiveUpBTC";
+			};
+			name = Debug;
+		};
+		DAEB44CF2A3C5F3D0036FDA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MGN9TDN5PJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Paul.NeverGiveUpBTCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NeverGiveUpBTC.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NeverGiveUpBTC";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -563,6 +675,15 @@
 			buildConfigurations = (
 				DA31BC822A39E88600F1C6E0 /* Debug */,
 				DA31BC832A39E88600F1C6E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAEB44D02A3C5F3D0036FDA4 /* Build configuration list for PBXNativeTarget "NeverGiveUpBTCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAEB44CE2A3C5F3D0036FDA4 /* Debug */,
+				DAEB44CF2A3C5F3D0036FDA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
