@@ -13,9 +13,25 @@
 		DA31BC782A39E88400F1C6E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA31BC762A39E88400F1C6E0 /* Main.storyboard */; };
 		DA31BC7A2A39E88600F1C6E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA31BC792A39E88600F1C6E0 /* Assets.xcassets */; };
 		DA31BC7D2A39E88600F1C6E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA31BC7B2A39E88600F1C6E0 /* LaunchScreen.storyboard */; };
+		DA31BC872A39EBAD00F1C6E0 /* NibLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA31BC862A39EBAD00F1C6E0 /* NibLoadingView.swift */; };
+		DA31BC912A39EC0500F1C6E0 /* MainpagePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA31BC8B2A39EC0500F1C6E0 /* MainpagePresenter.swift */; };
+		DA31BC922A39EC0500F1C6E0 /* MainpageWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA31BC8C2A39EC0500F1C6E0 /* MainpageWorker.swift */; };
+		DA31BC932A39EC0500F1C6E0 /* MainpageRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA31BC8D2A39EC0500F1C6E0 /* MainpageRouter.swift */; };
+		DA31BC942A39EC0500F1C6E0 /* MainpageModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA31BC8E2A39EC0500F1C6E0 /* MainpageModels.swift */; };
+		DA31BC952A39EC0500F1C6E0 /* MainpageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA31BC8F2A39EC0500F1C6E0 /* MainpageViewController.swift */; };
+		DA31BC962A39EC0500F1C6E0 /* MainpageInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA31BC902A39EC0500F1C6E0 /* MainpageInteractor.swift */; };
+		DA31BC982A39EC0F00F1C6E0 /* Mainpage.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA31BC972A39EC0F00F1C6E0 /* Mainpage.xib */; };
+		DACE11A42A39F93000738B16 /* BTCModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACE11A32A39F93000738B16 /* BTCModel.swift */; };
+		DACE11A82A3A3F9B00738B16 /* BTCCardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACE11A72A3A3F9B00738B16 /* BTCCardCollectionViewCell.swift */; };
+		DACE11AA2A3A3FA800738B16 /* BTCCardCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DACE11A92A3A3FA800738B16 /* BTCCardCollectionViewCell.xib */; };
+		DADE93332A3B5EA4001823E5 /* HistoryBTCViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DADE93322A3B5EA4001823E5 /* HistoryBTCViewCell.xib */; };
+		DADE93352A3B5EB5001823E5 /* HistoryBTCViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADE93342A3B5EB5001823E5 /* HistoryBTCViewCell.swift */; };
+		FEAF0D0C48A883FC473D7CA5 /* Pods_NeverGiveUpBTC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4179CC788045AB8C1E78C606 /* Pods_NeverGiveUpBTC.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4179CC788045AB8C1E78C606 /* Pods_NeverGiveUpBTC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NeverGiveUpBTC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B39B9FC087F299E35D572D34 /* Pods-NeverGiveUpBTC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeverGiveUpBTC.release.xcconfig"; path = "Target Support Files/Pods-NeverGiveUpBTC/Pods-NeverGiveUpBTC.release.xcconfig"; sourceTree = "<group>"; };
 		DA31BC6D2A39E88400F1C6E0 /* NeverGiveUpBTC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeverGiveUpBTC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA31BC702A39E88400F1C6E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA31BC722A39E88400F1C6E0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +40,20 @@
 		DA31BC792A39E88600F1C6E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA31BC7C2A39E88600F1C6E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA31BC7E2A39E88600F1C6E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA31BC862A39EBAD00F1C6E0 /* NibLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibLoadingView.swift; sourceTree = "<group>"; };
+		DA31BC8B2A39EC0500F1C6E0 /* MainpagePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainpagePresenter.swift; sourceTree = "<group>"; };
+		DA31BC8C2A39EC0500F1C6E0 /* MainpageWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainpageWorker.swift; sourceTree = "<group>"; };
+		DA31BC8D2A39EC0500F1C6E0 /* MainpageRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainpageRouter.swift; sourceTree = "<group>"; };
+		DA31BC8E2A39EC0500F1C6E0 /* MainpageModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainpageModels.swift; sourceTree = "<group>"; };
+		DA31BC8F2A39EC0500F1C6E0 /* MainpageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainpageViewController.swift; sourceTree = "<group>"; };
+		DA31BC902A39EC0500F1C6E0 /* MainpageInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainpageInteractor.swift; sourceTree = "<group>"; };
+		DA31BC972A39EC0F00F1C6E0 /* Mainpage.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Mainpage.xib; sourceTree = "<group>"; };
+		DACE11A32A39F93000738B16 /* BTCModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTCModel.swift; sourceTree = "<group>"; };
+		DACE11A72A3A3F9B00738B16 /* BTCCardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTCCardCollectionViewCell.swift; sourceTree = "<group>"; };
+		DACE11A92A3A3FA800738B16 /* BTCCardCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BTCCardCollectionViewCell.xib; sourceTree = "<group>"; };
+		DADE93322A3B5EA4001823E5 /* HistoryBTCViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HistoryBTCViewCell.xib; sourceTree = "<group>"; };
+		DADE93342A3B5EB5001823E5 /* HistoryBTCViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryBTCViewCell.swift; sourceTree = "<group>"; };
+		EE8C7175411D14E4A9B8EFFF /* Pods-NeverGiveUpBTC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeverGiveUpBTC.debug.xcconfig"; path = "Target Support Files/Pods-NeverGiveUpBTC/Pods-NeverGiveUpBTC.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +61,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEAF0D0C48A883FC473D7CA5 /* Pods_NeverGiveUpBTC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		16D286A08D515028E44715F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4179CC788045AB8C1E78C606 /* Pods_NeverGiveUpBTC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B5713CAB5368F0AB8565272 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE8C7175411D14E4A9B8EFFF /* Pods-NeverGiveUpBTC.debug.xcconfig */,
+				B39B9FC087F299E35D572D34 /* Pods-NeverGiveUpBTC.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		DA31BC642A39E88400F1C6E0 = {
 			isa = PBXGroup;
 			children = (
 				DA31BC6F2A39E88400F1C6E0 /* NeverGiveUpBTC */,
 				DA31BC6E2A39E88400F1C6E0 /* Products */,
+				6B5713CAB5368F0AB8565272 /* Pods */,
+				16D286A08D515028E44715F0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +106,11 @@
 		DA31BC6F2A39E88400F1C6E0 /* NeverGiveUpBTC */ = {
 			isa = PBXGroup;
 			children = (
+				DADE932E2A3B5E7B001823E5 /* UITableViewCell */,
+				DACE11A52A3A3F4F00738B16 /* UICollectionView */,
+				DA31BC992A39ECB300F1C6E0 /* Service */,
+				DA31BC852A39EBA400F1C6E0 /* Utils */,
+				DA31BC842A39EB7B00F1C6E0 /* Flow */,
 				DA31BC702A39E88400F1C6E0 /* AppDelegate.swift */,
 				DA31BC722A39E88400F1C6E0 /* SceneDelegate.swift */,
 				DA31BC742A39E88400F1C6E0 /* ViewController.swift */,
@@ -67,6 +122,102 @@
 			path = NeverGiveUpBTC;
 			sourceTree = "<group>";
 		};
+		DA31BC842A39EB7B00F1C6E0 /* Flow */ = {
+			isa = PBXGroup;
+			children = (
+				DA31BC882A39EBD300F1C6E0 /* Mainpage */,
+			);
+			path = Flow;
+			sourceTree = "<group>";
+		};
+		DA31BC852A39EBA400F1C6E0 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				DA31BC862A39EBAD00F1C6E0 /* NibLoadingView.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		DA31BC882A39EBD300F1C6E0 /* Mainpage */ = {
+			isa = PBXGroup;
+			children = (
+				DA31BC8A2A39EBE500F1C6E0 /* Xib */,
+				DA31BC892A39EBDE00F1C6E0 /* Scene */,
+			);
+			path = Mainpage;
+			sourceTree = "<group>";
+		};
+		DA31BC892A39EBDE00F1C6E0 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				DA31BC8B2A39EC0500F1C6E0 /* MainpagePresenter.swift */,
+				DA31BC8C2A39EC0500F1C6E0 /* MainpageWorker.swift */,
+				DA31BC8D2A39EC0500F1C6E0 /* MainpageRouter.swift */,
+				DA31BC8E2A39EC0500F1C6E0 /* MainpageModels.swift */,
+				DA31BC8F2A39EC0500F1C6E0 /* MainpageViewController.swift */,
+				DA31BC902A39EC0500F1C6E0 /* MainpageInteractor.swift */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		DA31BC8A2A39EBE500F1C6E0 /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				DA31BC972A39EC0F00F1C6E0 /* Mainpage.xib */,
+			);
+			path = Xib;
+			sourceTree = "<group>";
+		};
+		DA31BC992A39ECB300F1C6E0 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				DA31BC9A2A39ECB800F1C6E0 /* Model */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		DA31BC9A2A39ECB800F1C6E0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DACE11A32A39F93000738B16 /* BTCModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DACE11A52A3A3F4F00738B16 /* UICollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				DACE11A62A3A3F5C00738B16 /* BTCCardCollectionViewCell */,
+			);
+			path = UICollectionView;
+			sourceTree = "<group>";
+		};
+		DACE11A62A3A3F5C00738B16 /* BTCCardCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				DACE11A72A3A3F9B00738B16 /* BTCCardCollectionViewCell.swift */,
+				DACE11A92A3A3FA800738B16 /* BTCCardCollectionViewCell.xib */,
+			);
+			path = BTCCardCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		DADE932E2A3B5E7B001823E5 /* UITableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				DADE932F2A3B5E82001823E5 /* HistoryBTCViewCell */,
+			);
+			path = UITableViewCell;
+			sourceTree = "<group>";
+		};
+		DADE932F2A3B5E82001823E5 /* HistoryBTCViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				DADE93322A3B5EA4001823E5 /* HistoryBTCViewCell.xib */,
+				DADE93342A3B5EB5001823E5 /* HistoryBTCViewCell.swift */,
+			);
+			path = HistoryBTCViewCell;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +225,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DA31BC812A39E88600F1C6E0 /* Build configuration list for PBXNativeTarget "NeverGiveUpBTC" */;
 			buildPhases = (
+				D5CFB871577066BC75FEF36E /* [CP] Check Pods Manifest.lock */,
 				DA31BC692A39E88400F1C6E0 /* Sources */,
 				DA31BC6A2A39E88400F1C6E0 /* Frameworks */,
 				DA31BC6B2A39E88400F1C6E0 /* Resources */,
+				1B8AA46C41A57B11578434C7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,11 +280,56 @@
 			files = (
 				DA31BC7D2A39E88600F1C6E0 /* LaunchScreen.storyboard in Resources */,
 				DA31BC7A2A39E88600F1C6E0 /* Assets.xcassets in Resources */,
+				DACE11AA2A3A3FA800738B16 /* BTCCardCollectionViewCell.xib in Resources */,
 				DA31BC782A39E88400F1C6E0 /* Main.storyboard in Resources */,
+				DA31BC982A39EC0F00F1C6E0 /* Mainpage.xib in Resources */,
+				DADE93332A3B5EA4001823E5 /* HistoryBTCViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B8AA46C41A57B11578434C7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NeverGiveUpBTC/Pods-NeverGiveUpBTC-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NeverGiveUpBTC/Pods-NeverGiveUpBTC-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NeverGiveUpBTC/Pods-NeverGiveUpBTC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5CFB871577066BC75FEF36E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NeverGiveUpBTC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DA31BC692A39E88400F1C6E0 /* Sources */ = {
@@ -139,8 +337,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA31BC752A39E88400F1C6E0 /* ViewController.swift in Sources */,
+				DA31BC932A39EC0500F1C6E0 /* MainpageRouter.swift in Sources */,
+				DACE11A42A39F93000738B16 /* BTCModel.swift in Sources */,
+				DA31BC872A39EBAD00F1C6E0 /* NibLoadingView.swift in Sources */,
+				DACE11A82A3A3F9B00738B16 /* BTCCardCollectionViewCell.swift in Sources */,
+				DA31BC912A39EC0500F1C6E0 /* MainpagePresenter.swift in Sources */,
+				DA31BC952A39EC0500F1C6E0 /* MainpageViewController.swift in Sources */,
 				DA31BC712A39E88400F1C6E0 /* AppDelegate.swift in Sources */,
+				DA31BC962A39EC0500F1C6E0 /* MainpageInteractor.swift in Sources */,
+				DA31BC942A39EC0500F1C6E0 /* MainpageModels.swift in Sources */,
+				DADE93352A3B5EB5001823E5 /* HistoryBTCViewCell.swift in Sources */,
 				DA31BC732A39E88400F1C6E0 /* SceneDelegate.swift in Sources */,
+				DA31BC922A39EC0500F1C6E0 /* MainpageWorker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +490,7 @@
 		};
 		DA31BC822A39E88600F1C6E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE8C7175411D14E4A9B8EFFF /* Pods-NeverGiveUpBTC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +519,7 @@
 		};
 		DA31BC832A39E88600F1C6E0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B39B9FC087F299E35D572D34 /* Pods-NeverGiveUpBTC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

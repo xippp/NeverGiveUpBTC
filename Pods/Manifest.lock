@@ -1,0 +1,22 @@
+PODS:
+  - Alamofire (5.6.2)
+  - ModelMapper (10.0.1):
+    - ModelMapper/Core (= 10.0.1)
+  - ModelMapper/Core (10.0.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - ModelMapper
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - ModelMapper
+
+SPEC CHECKSUMS:
+  Alamofire: d368e1ff8a298e6dde360e35a3e68e6c610e7204
+  ModelMapper: 0f68dd4300d0e27290c70f66492c7f795da21bcf
+
+PODFILE CHECKSUM: 63be90835b4a1452561b5c40458f6788524953e8
+
+COCOAPODS: 1.11.3

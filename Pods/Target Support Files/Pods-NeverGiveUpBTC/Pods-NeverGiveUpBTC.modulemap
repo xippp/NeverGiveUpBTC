@@ -1,0 +1,6 @@
+framework module Pods_NeverGiveUpBTC {
+  umbrella header "Pods-NeverGiveUpBTC-umbrella.h"
+
+  export *
+  module * { export * }
+}
